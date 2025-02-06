@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SCISSOR - Advanced URL Shortening</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">SCISSOR</div>
+        <ul class="nav-links">
+            <li><a href="#">My URLs</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Analytics</a></li>
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#" class="login">Log in</a></li>
+        </ul>
+    </nav>
+    
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Optimize Your Online Experience with Our Advanced URL Shortening Solution</h1>
+            <p>
+                Personalize your shortened URLs to align with your brand identity. Utilize custom slugs, branded links, and domain customization options to reinforce your brand presence and enhance user engagement.
+            </p>
+            <p>
+                Seamlessly transform your long URLs into concise and shareable links with just a few clicks.
+            </p>
+            <div class="hero-buttons">
+                <a href="#" class="btn sign-up">Sign Up</a>
+                <a href="#" class="btn learn-more">Learn more</a>
+            </div>
+        </div>
+    </section>
+    <section class="transform-links">
+        <div class="container">
+            <h2>Seamlessly transform your long URLs into concise and shareable links with just a few clicks.</h2>
+            <p>Save time and improve your online presence by turning lengthy URLs into short, customizable links. Perfect for sharing across social media, email, and more!</p>
+            <button class="cta-btn">Get Started</button>
+        </div>
+    <section class="pricing">
+        <div class="container">
+          <h2>A price perfect for your needs.</h2>
+          <p class="pricing-description">
+            From catering for your personal, business, event, socials needs, you can be rest assured we have you in mind in our pricing.
+          </p>
+          <div class="pricing-cards">
+            <div class="pricing-card">
+              <h3>Personal</h3>
+              <p class="price">$9.99/mo</p>
+              <ul>
+                <li>Basic URL shortening</li>
+                <li>Custom URLs</li>
+                <li>QR Code generation</li>
+              </ul>
+              <a href="#" class="btn">Select</a>
+            </div>
+            <div class="pricing-card">
+              <h3>Business</h3>
+              <p class="price">$29.99/mo</p>
+              <ul>
+                <li>Advanced analytics</li>
+                <li>Branded links</li>
+                <li>Priority support</li>
+              </ul>
+              <a href="#" class="btn">Select</a>
+            </div>
+            <div class="pricing-card">
+              <h3>Enterprise</h3>
+              <p class="price">Contact Us</p>
+              <ul>
+                <li>All Business features</li>
+                <li>Custom solutions</li>
+                <li>Dedicated account manager</li>
+              </ul>
+              <a href="#" class="btn">Contact</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="pricing">
+        <div class="container">
+          <h2>Pricing Plans</h2>
+          <div class="pricing-cards">
+            <!-- Basic Plan -->
+            <div class="pricing-card">
+              <h3>Basic</h3>
+              <p class="price">$15/month</p>
+              <ul>
+                <li>Unlimited URL Shortening</li>
+                <li>Enhanced Link Analytics</li>
+                <li>Customizable Short Links</li>
+                <li>Standard Support</li>
+                <li>Ad-supported</li>
+              </ul>
+              <a href="#" class="btn">Select</a>
+            </div>
+      
+            <div class="pricing-card">
+              <h3>Professional</h3>
+              <p class="price">$25/month</p>
+              <ul>
+                <li>Unlimited URL Shortening</li>
+                <li>Enhanced Link Analytics</li>
+                <li>Customizable Short Links</li>
+                <li>Custom Branded Domains</li>
+                <li>User Roles and Permissions</li>
+                <li>Advanced Link Customization</li>
+                <li>Enhanced Security</li>
+                <li>Priority Support</li>
+                <li>API Access</li>
+                <li>Ad-free Experience</li>
+              </ul>
+              <a href="#" class="btn">Select</a>
+            </div>
+      
+            <div class="pricing-card">
+              <h3>Teams</h3>
+              <p class="price">Ideal for business creators</p>
+              <p class="sub">Share with up to 10 users</p>
+              <ul>
+                <li>Unlimited URL Shortening</li>
+                <li>Enhanced Link Analytics</li>
+                <li>Team Collaboration</li>
+                <li>Customizable Short Links</li>
+                <li>Custom Branded Domains</li>
+                <li>User Roles and Permissions</li>
+                <li>API Access</li>
+                <li>Dedicated Account Manager</li>
+              </ul>
+              <a href="#" class="btn">Select</a>
+            </div>
+      
+            <div class="pricing-card">
+              <h3>Free</h3>
+              <p class="price">Free plan for all users</p>
+              <ul>
+                <li>Unlimited URL Shortening</li>
+                <li>Basic Link Analytics</li>
+                <li>Customizable Short Links</li>
+                <li>Ad-supported</li>
+              </ul>
+              <a href="#" class="btn">Get Started</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <div class="container">
+        <h1>URL Shortener</h1>
+        <form id="url-form">
+          <div class="form-group">
+            <label for="long-url">Paste URL here...</label>
+            <input type="url" id="long-url" name="long-url" placeholder="Enter your long URL" required>
+          </div>
+          <div class="form-group">
+            <label for="domain">Choose Domain</label>
+            <select id="domain" name="domain" required>
+              <option value="short.ly">short.ly</option>
+              <option value="tiny.cc">tiny.cc</option>
+              <option value="bit.ly">bit.ly</option>
+            
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="alias">Type Alias here</label>
+            <input type="text" id="alias" name="alias" placeholder="Enter custom alias (optional)">
+          </div>
+          <div class="form-group">
+            <input type="checkbox" id="terms" name="terms" required>
+            <label for="terms">
+              By clicking Trim URL, I agree to the
+              <a href="#">Terms of Service</a>,
+              <a href="#">Privacy Policy</a>, and
+              <a href="#">Use of Cookies</a>.
+            </label>
+          </div>
+          <button type="submit" class="btn">Trim URL</button>
+        </form>
+      </div>
+
+</body>
+</html>
